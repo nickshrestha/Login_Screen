@@ -80,7 +80,7 @@ class _LoginScreenState extends State<LoginScreen> {
           height: 60,
           child: TextField(
               obscureText: true,
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.black87),
               decoration: InputDecoration(
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.only(top: 14),
@@ -110,7 +110,7 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
-// Remmember PAssword /Button
+// Remmember Password Button
   Widget buildRememberCB() {
     return Container(
       height: 20,
